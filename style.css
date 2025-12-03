@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  background-color: #0e0e0e;
+  color: #e0e0e0;
+  font-family: 'Fira Code', monospace;
+  padding: 40px 20px;
+}
+
+.console {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.line {
+  color: #00ff88;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #58a6ff;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+p, li {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nadpis{
+  color: #00ff88;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background-color: #1a1a1a;
+  border: 2px solid #58a6ff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: default;
+  text-align: center;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #58a6ff;
+  border-width: 3px;
+}
+
+/* Projects obdelníky */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.project {
+  background-color: #1a1a1a;
+  border: 2px solid #58a6ff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #58a6ff;
+  border-width: 3px;
+}
+
